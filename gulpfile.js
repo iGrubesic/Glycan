@@ -23,7 +23,7 @@ gulp.task('serve', ['sass'], () => {
     browserSync.init({
         server: {
             baseDir: "./",
-            index: "index.html"
+            index: "logIn.html"
         }
     });
 
